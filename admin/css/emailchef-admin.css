@@ -1,0 +1,84 @@
+#wpbody-content {
+    padding-top:110px;
+    background:url('./../img/logo.png') no-repeat top 20px left;
+}
+/** Do not display update in these pages **/
+.update-nag{
+    display:none;
+}
+
+
+
+/***/
+.emailchef-form .map-reload {
+    display: none;
+}
+
+.emailchef-form .form-table td.nopadding {
+    padding: 0;
+}
+
+.emailchef-form .save {
+    margin: 0 0 0 10px !important;
+}
+
+.emailchef-check-login-result {
+    line-height: 27px;
+    padding: 0 10px;
+}
+
+.emailchef-check-login-result.error {
+    color: red;
+}
+
+.emailchef-check-login-result.valid {
+    color: green;
+}
+
+input[name="emailchef_settings\[emailchef_email\]"].error,
+input[name="emailchef_settings\[emailchef_password\]"].error {
+    border-color: red;
+}
+
+input[name="emailchef_settings\[emailchef_email\]"].valid,
+input[name="emailchef_settings\[emailchef_password\]"].valid {
+    border-color: green;
+}
+
+.accordion-section .not-connected {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    color: red;
+}
+.accordion-section.active .not-connected {
+    display: none;
+}
+.accordion-section .form-table-container{
+    border:1px solid #ccc;
+    padding:5px;
+    margin-top:6px;
+}
+.accordion-section.warning .form-table-container,
+.accordion-section.warning .list-id{
+    border-color:red;
+}
+.accordion-section .warning-select-list{
+    display:none;
+    color:red;
+}
+.accordion-section.warning .warning-select-list{
+    display:block;
+}
+.accordion-section.warning-map .form-table-container{
+    border-color:red;
+}
+.accordion-section.warning-map .at-least-email{
+    color:red;
+}
+.accordion-section .form-table th {
+    padding: 0px 10px 5px 0;
+}
+.accordion-section .form-table td {
+    padding: 0px 10px 15px;
+}
